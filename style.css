@@ -174,13 +174,14 @@
 
 .my-recent-work .project-card{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding: 12px 4px;
     width: 95%;
 }
 
 .project-card .project{
+    /* flex-wrap: wrap; */
     background-image: url(https://mattfarley.ca/img/projects/burkettandco.png);
     height: 200px;
     width: 300px;

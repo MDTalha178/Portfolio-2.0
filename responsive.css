@@ -7,9 +7,6 @@
 
 /* Navbar responive */
 @media (max-width:900px) {
-    main{
-        width:100%;
-    }
     .navbar .logo svg{
         font-size:60px;
         margin-left: 0.5rem;
@@ -59,6 +56,10 @@
         height: 400px;
         max-width: 80%;
     }
+    .sub-intro p{
+        align-self: center;
+        font-size: 14px;
+    }
     .header-project{
         padding: 30px 35px;
         border-radius: 12px;
@@ -74,7 +75,35 @@
     }
 
     .start-project-card{
-      height: 200px;
+      height: 200pxy;
+    }
+    .project-card .project{
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 23px;
+    }
+    .project-card .project:nth-child(3){
+        opacity: 0;
+    }
+    .project-card .project:nth-child(4){
+        opacity: 0;
+    }
+    .learning-project .head-banner p{
+        font-size:15px;
+        font-weight: 300;
+        padding-bottom: 30px;
+    }
+    .header-project{
+        margin-top: -60px
+    }
+    .header-project:nth-child(1){
+        margin-top:-5px
+    }
+    .header-project:nth-child(3){
+        margin-top:20px
+    }
+    .header-project:nth-child(2){
+        margin-top:20px
     }
 }
  /* Main header responsive  banner image*/
@@ -85,6 +114,15 @@
         margin-left: 2rem;
         padding: 20px 3px;
         margin-bottom: -35px;
+    }
+}
+@media screen and (min-width: 200px) and (max-width:400px) {
+    .main-intro  .center-pro{
+        align-items: center;
+        width: 350px;
+        margin-left: 1rem;
+        padding: 20px 3px;
+        margin-bottom: -30px;
     }
 }
  /* Main header responsive  banner image*/
@@ -112,4 +150,8 @@
         width: 100%;
         margin-bottom: 56rem;
     }
+}
+
+@media screen and (min-width: 300px) and (max-width:700px){
+    
 }
