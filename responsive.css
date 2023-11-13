@@ -153,5 +153,14 @@
 }
 
 @media screen and (min-width: 300px) and (max-width:700px){
-    
+    .skill-child{
+        margin-top:3px;
+        width:100%
+    }
+    .my-recent-work .tag-line{
+        margin-top:100px
+    }
+    .project-card .project{
+        margin-bottom: 10px;
+    }
 }
